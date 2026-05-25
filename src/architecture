@@ -1,0 +1,247 @@
+## Project Structure
+
+```plaintext
+src/
+├── components/
+├── pages/
+├── layouts/
+├── hooks/
+├── services/
+├── utils/
+├── constants/
+├── context/
+├── assets/
+├── types/
+├── routes/
+├── styles/
+├── App.tsx
+└── main.tsx
+```
+
+---
+
+## Folder Breakdown
+
+### components/
+
+Reusable UI components used throughout the application.
+
+Contains:
+
+- Buttons
+- Cards
+- Inputs
+- Modals
+- Tables
+- Status badges
+- Navigation components
+- Analytics widgets
+
+Purpose:
+
+Ensures interface consistency and reusable design logic.
+
+---
+
+### pages/
+
+Application screens and route-level views.
+
+Includes:
+
+- Landing Page
+- Login
+- Signup
+- Dashboard
+- Invoice Builder
+- Invoice Management
+- Receipt Generator
+- Client Vault
+- Reports
+- Settings
+
+Purpose:
+
+Represents the full product workflow.
+
+---
+
+### layouts/
+
+Shared layout structures.
+
+Includes:
+
+- Dashboard layout
+- Authentication layout
+- Mobile navigation layout
+
+Purpose:
+
+Maintains structural consistency.
+
+---
+
+### hooks/
+
+Custom reusable application logic.
+
+Examples:
+
+- useAuth
+- useInvoice
+- useClientData
+- useTheme
+
+Purpose:
+
+Encapsulates reusable business logic.
+
+---
+
+### services/
+
+Handles core product operations.
+
+Includes:
+
+- Authentication services
+- Invoice generation
+- PDF export
+- Receipt conversion
+- Analytics processing
+
+Purpose:
+
+Separates business logic from UI rendering.
+
+---
+
+### utils/
+
+Helper functions.
+
+Examples:
+
+- Currency formatting
+- Date formatting
+- Invoice calculations
+- Validation logic
+
+Purpose:
+
+Improves maintainability.
+
+---
+
+### constants/
+
+Stores reusable static configuration.
+
+Examples:
+
+- Status definitions
+- Currency options
+- Navigation items
+- Theme variables
+
+Purpose:
+
+Centralized configuration management.
+
+---
+
+### context/
+
+Global application state management.
+
+Includes:
+
+- User context
+- Theme context
+- Invoice state
+- Client state
+
+Purpose:
+
+Supports scalable state flow.
+
+---
+
+### assets/
+
+Static design assets.
+
+Includes:
+
+- Logos
+- Icons
+- Illustrations
+- Brand imagery
+
+Purpose:
+
+Visual resource management.
+
+---
+
+### types/
+
+TypeScript type definitions.
+
+Examples:
+
+- Invoice types
+- Client interfaces
+- User schemas
+
+Purpose:
+
+Improves type safety.
+
+---
+
+### routes/
+
+Application route definitions.
+
+Purpose:
+
+Controls page navigation structure.
+
+---
+
+### styles/
+
+Global styling files.
+
+Includes:
+
+- Global CSS
+- Theme tokens
+- Utility classes
+
+Purpose:
+
+Maintains design system consistency.
+
+---
+
+### App.tsx
+
+Main application routing and structure orchestration.
+
+---
+
+### main.tsx
+
+Application entry point.
+
+Responsible for:
+
+- Rendering root application
+- Mounting providers
+- Initial setup
+
+---
+```
