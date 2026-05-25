@@ -160,7 +160,7 @@ Performance tracking and insights.
 
 The design system for TWO is documented here:
 
-🔗 [styles.md Link]
+🔗 [[styles.md Link]](https://github.com/thenowwoman/two-invoice-generator-/blob/main/styles.md)
 
 ---
 
