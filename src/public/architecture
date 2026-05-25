@@ -1,0 +1,270 @@
+## Public Directory Structure
+
+```plaintext
+public/
+├── favicon.ico
+├── logo.svg
+├── manifest.json
+├── robots.txt
+├── preview-image.png
+├── invoice-template/
+├── receipt-template/
+├── icons/
+└── assets/
+```
+
+---
+
+## Folder Purpose
+
+The **public/** directory contains static assets required for TWO’s deployment, branding consistency, application previews, downloadable templates, and browser-level configuration.
+
+These files support the product’s visual identity and production readiness.
+
+---
+
+# File Breakdown
+
+## favicon.ico
+
+Purpose:
+
+Browser tab identity for TWO.
+
+Used for:
+
+- Browser tabs
+- Bookmarks
+- Saved shortcuts
+
+Design requirement:
+
+Should reflect TWO’s minimalist fintech branding.
+
+---
+
+## logo.svg
+
+Purpose:
+
+Primary scalable brand logo.
+
+Used across:
+
+- Authentication screens
+- Dashboard navigation
+- Landing page
+- PDF invoice exports
+- Receipt templates
+
+Requirements:
+
+- Lightweight
+- Vector-based
+- Responsive
+- High clarity at all sizes
+
+---
+
+## manifest.json
+
+Purpose:
+
+Defines Progressive Web App configuration.
+
+Supports:
+
+- Mobile installability
+- App icon behavior
+- Device launch experience
+
+Configuration includes:
+
+- App name
+- Short name
+- Theme colors
+- Background color
+- Display mode
+
+---
+
+## robots.txt
+
+Purpose:
+
+Controls search engine crawling behavior.
+
+Supports:
+
+- Deployment indexing
+- Search discoverability
+
+---
+
+## preview-image.png
+
+Purpose:
+
+Social sharing preview image.
+
+Used for:
+
+- GitHub repository preview
+- Deployment previews
+- Social media sharing cards
+
+Design requirements:
+
+Should showcase:
+
+- TWO branding
+- Dashboard preview
+- Product tagline
+
+---
+
+# invoice-template/
+
+Contains reusable invoice export templates.
+
+Examples:
+
+- Default invoice layout
+- Branded invoice variations
+- PDF rendering templates
+
+Purpose:
+
+Ensures consistent invoice generation.
+
+---
+
+# receipt-template/
+
+Contains receipt export templates.
+
+Examples:
+
+- Standard receipt layout
+- Compact receipt format
+- Printable receipt version
+
+Purpose:
+
+Supports instant invoice-to-receipt conversion.
+
+---
+
+# icons/
+
+Contains application iconography.
+
+Examples:
+
+- Dashboard icons
+- Navigation icons
+- Status indicators
+- Action icons
+
+Purpose:
+
+Maintain interface consistency.
+
+---
+
+# assets/
+
+Contains additional static resources.
+
+Examples:
+
+- Illustrations
+- Empty-state graphics
+- Onboarding visuals
+- Landing page visuals
+
+Purpose:
+
+Enhance visual communication.
+
+---
+
+# Public Asset Design Principles
+
+All static assets must follow:
+
+## Brand Consistency
+
+Align with TWO’s visual system.
+
+---
+
+## Performance Optimization
+
+Assets must be:
+
+- Lightweight
+- Compressed
+- Fast-loading
+
+---
+
+## Scalability
+
+Assets should remain sharp across:
+
+- Mobile
+- Tablet
+- Desktop
+- High-resolution displays
+
+---
+
+## Accessibility
+
+Visual assets should:
+
+- Support sufficient contrast
+- Avoid ambiguity
+- Improve comprehension
+
+---
+
+# 5-Day MVP Public Asset Delivery Plan
+
+## Day 1
+Brand asset planning
+
+---
+
+## Day 2
+Logo and favicon generation
+
+---
+
+## Day 3
+Invoice and receipt template setup
+
+---
+
+## Day 4
+Preview assets and icons
+
+---
+
+## Day 5
+Optimization and deployment validation
+
+---
+
+# Public Directory Outcome
+
+The public asset system ensures TWO delivers:
+
+- Strong product identity
+- Professional deployment quality
+- Consistent downloadable outputs
+- Fast cross-device performance
+
+This directory supports TWO’s goal of becoming a trustworthy financial workflow platform for SMEs.
+```
