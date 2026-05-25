@@ -168,8 +168,8 @@ The design system for TWO is documented here:
 
 View the full PRD here:
 
-🔗 [PRD.md Link]
-
+🔗 [[PRD.md Link]
+](https://github.com/thenowwoman/two-invoice-generator-/blob/main/PRD.md)
 ---
 
 ## User Flow
